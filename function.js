@@ -40,12 +40,12 @@ function reverse(){
      
 reverse()
 //prog to check pailndrome
-function ispalindrome(text){
+function ispalindrome(text,number){
     return text == text.split( ' ').reverse().join(' ');
 }
-console.log(ispalindrome('mom'));
-console.log(ispalindrome('level'));
-console.log(ispalindrome(141));
+console.log(ispalindrome('mom',141));
+console.log(ispalindrome('level',55));
+
 
 
 
